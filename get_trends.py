@@ -14,3 +14,5 @@ json = simplejson.load(f)
 
 trends = [trend['name'] for trend in json[0]['trends']]
 pprint(trends)
+
+#update: twitter changed its api again!
